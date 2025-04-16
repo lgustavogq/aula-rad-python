@@ -45,28 +45,35 @@ maxsplit: Opcional. Especifica quantas divisões devem ser feitas. O valor prede
 
 juntar uma lista de palavras em uma única string
 
-sintaxe: string.join(iterable)
+sintaxe: separator.join(list)
 
-_string_: Obrigatótio. O caractere ou string que será usado como separador
+_separator_: Obrigatótio. O caractere ou string que será usado como separador
 
-_iterable_: Obrigatório. Uma lista com strings.
+_list_: Obrigatório. Uma lista com strings.
 
 ## Método Upper e Lower
 
-upper deixa o texto em caixa alta
+Upper transforma o texto inteiro em caixa alta
 
-lower deixa o texto em caixa baixa
+Lower transforma o texto inteiro em caixa baixa
+
+sintaxe: string.upper/lower()
 
 ## Função len
 
 retorna a quantidade de caracteres em uma string
 
+sintaxe: len(string)
+
 ## Função replace
 
 substituir trechos de texto
 
-sintaxe: frase.replace
+sintaxe: string.replace("frase a ser substituída", "frase a qual quer adicionar")
 
 ## Função startswith() e endswith()
 
 verifica se uma frase ou palavra começa com uma string, retorna um booleano
+
+sintaxe: string.startswith("palavra"): retorna True se a string começa com a palavra
+sintaxe: string.endswith("palavra"): retorna True se a string termina com a palavra
